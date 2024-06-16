@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: 1px solid rgb(255 255 255 / 0.2);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255 255 255 / 0.2);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  cursor: ns-resize;
+}
+::-webkit-scrollbar-thumb:horizontal:hover {
+  cursor: ew-resize;
+}
+
+.p-toast-summary {
+  font-weight: bold;
+}
+
+.p-paginator {
+  background-color: transparent;
+  padding: 0;
+}
+.p-paginator-current {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.p-paginator-icon {
+  color: black;
+}
+
+.p-dialog {
+  background-color: #242424;
+}
+.p-dialog-header {
+  background-color: #242424;
+  color: #f36f3f;
+}
+
+.p-dialog-content {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+.p-dialog-content form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.p-dropdown {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+.p-dropdown:active {
+  outline: none;
+}
+
+.p-inputwrapper-focus {
+  outline: 1px solid #f36f3f;
+}
+
+.p-highlight {
+  background-color: #f36f3f;
+}
+
+.p-dropdown-items-wrapper {
+  background-color: #242424;
+}
+
+.p-dropdown-label {
+  padding: 0;
+}
+
+.p-dropdown-item:hover {
+  background-color: #f7926e;
+  color: black;
+}
+
+.p-dropdown-item,
+.p-dropdown-label {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.p-dropdown-item,
+.p-dropdown-item-group {
+  padding: 12px;
+}
+
+.p-dropdown-item {
+  margin: 5px 0 5px 0;
+}
+
+.p-inputtext {
+  background-color: transparent;
+}
+
+.p-dropdown-empty-message {
+  color: #ffffff;
+}
+
+.p-chart  {
+  color: #ffffff;
+  background-color: black;
+}
+
+.p-dropdown-items-wrapper {
+  border-radius: 6px;
+  margin-top: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.p-dialog-header {
+  padding: 24px 24px 5px 24px;
+}
+
+.p-dialog-title {
+  color: #ffffff;
+}
+
+.p-dropdown-panel.p-component.p-ripple-disabled {
+  background-color: transparent;
+}
+
+.p-dropdown-item-group {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f36f3f;
+  color: #ffffff;
+}
+
+.p-dropdown-item.p-focus {
+  background-color: #f7926e;
+}
+
+.p-highlight .p-checkbox-input {
+  background-color: #f7926e;
+}
+
+.p-checkbox,
+.p-checkbox-box {
+  width: 18px;
+  height: 18px;
+  background-color: #f7926e;
+  border-radius: 4px;
+}
+
+.p-checkbox-icon {
+  width: 10px;
+}
